@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "test": "hackmyresume BUILD resume.json TO target/resume.all"
+    "test": "hackmyresume BUILD resume.json TO target/resume.all -t node_modules/jsonresume-theme-classy"
   },
   "devDependencies": {
     "hackmyresume": "^1.8.0",
+    "jsonresume-theme-classy": "^1.0.9",
     "jsonresume-theme-modern": "0.0.18"
   }
 }
