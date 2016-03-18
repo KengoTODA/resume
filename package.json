@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "hackmyresume BUILD resume.json TO target/resume.all"
+  },
+  "devDependencies": {
+    "hackmyresume": "^1.8.0",
+    "jsonresume-theme-modern": "0.0.18"
+  }
+}

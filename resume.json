@@ -1,0 +1,174 @@
+{
+  "basics": {
+    "name": "Kengo TODA",
+    "label": "Tech & Team Lead",
+    "picture": "https://avatars3.githubusercontent.com/u/505751?v=3&s=460",
+    "email": "skypencil@gmail.com",
+    "phone": "+86 131-2241-7703",
+    "website": "https://kengotoda.github.io/",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Putuo",
+      "countryCode": "China",
+      "region": "Shanghai"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "Kengo_TODA",
+        "url": "https://twitter.com/Kengo_TODA"
+      },
+      {
+        "network": "Facebook",
+        "username": "Kengo TODA",
+        "url": "facebook.com/kengo.toda"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Works Applications co.,ltd.",
+      "position": "Engineer",
+      "website": "http://worksap.com/",
+      "startDate": "2008-04-01",
+      "endDate": "2011-08-31",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Works Applications CHINA co.,ltd.",
+      "position": "Team Lead",
+      "website": "http://worksap.com/",
+      "startDate": "2011-09-01",
+      "endDate": "2013-07-31",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Works Applications Singapore PTE LTD",
+      "position": "Team Lead",
+      "website": "http://worksap.com/",
+      "startDate": "2013-08-01",
+      "endDate": "2014-06-30",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Works Applications CHINA co.,ltd.",
+      "position": "Manager",
+      "website": "http://worksap.com/",
+      "startDate": "2014-07-01",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Tokyo University of Science",
+      "area": "Physics",
+      "studyType": "Bachelor",
+      "startDate": "2004-04-01",
+      "endDate": "2008-03-31",
+      "gpa": "",
+      "courses": [
+        "e-learning content http://www.rs.kagu.tus.ac.jp/yamalab/2007/toda/"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "RequireJS",
+        "Javascript",
+        "jQuery",
+        "Google Closure Compiler",
+        "Google Closure Library"
+      ]
+    },
+    {
+      "name": "Java Development",
+      "keywords": [
+        "Java8",
+        "Maven Plugin",
+        "Jenkins Plugin",
+        "Spring Framework",
+        "Apache Commons",
+        "Google Guava",
+        "Google Truth",
+        "Vert.x",
+        "JUnit4",
+        "ObjectWeb ASM",
+        "Findbugs",
+        "PMD",
+        "JSR305"
+      ]
+    },
+    {
+      "name": "Middleware",
+      "level": "Architect, Developer and DBA",
+      "keywords": [
+        "Oracle Database",
+        "IBM DB2",
+        "SQLite",
+        "Redis",
+        "Apache Cassandra",
+        "Hashicorp Consul"
+      ]
+    },
+    {
+      "name": "Build System",
+      "level": "Admin for OSS and large scale development (100~ developers)",
+      "keywords": [
+        "Maven3",
+        "grunt",
+        "npm",
+        "WebPack",
+        "Docker",
+        "Jenkins",
+        "Slack",
+        "Redmine",
+        "Travis CI",
+        "Vagrant"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Japanese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency (4+ years)"
+    },
+    {
+      "language": "Mandarine",
+      "fluency": "Daily life (HSK 4th grade)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cooking",
+      "keywords": [
+        "Japanese dishes",
+        "Chinese dishes"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Anonimous",
+      "reference": "One of the most knowledgeable and enthusiastic person in technical field. Gives huge support for the entire department."
+    },
+    {
+      "name": "Anonimous",
+      "reference": "Have great knowledge in technology, and thinks the whole project and Shanghai Office as his responsibility."
+    }
+  ]
+}
