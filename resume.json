@@ -93,13 +93,14 @@
       ]
     },
     {
-      "name": "System Performance Trouble Shooter",
+      "name": "System Performance Enhancer",
       "level": "Master",
       "keywords": [
         "JMX",
         "Oracle Java Mission Control",
         "Statspack",
         "jcmd",
+        "JMH",
         "IBM HeapAnalyzer",
         "IBM Thread and Monitor Dump Analyze for Java",
         "Unix commands",
@@ -193,6 +194,32 @@
         "History",
         "Novel"
       ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "twistoire",
+      "releaseDate": "2010-05-05",
+      "website": "https://twitter.com/twistoire",
+      "summary": "A web service to notice you when followers remove/block your twitter account. It works on Google App Engine (Java) and appengine-mapreduce. Analysis part is kicked by cron via TaskQueue, and runs on Backends. It uses Twitter4J to check diff of followers, and send direct message to users."
+    },
+    {
+      "name": "Jenkins regression report plugin",
+      "releaseDate": "2012-06-02",
+      "website": "https://wiki.jenkins-ci.org/display/JENKINS/Regression+Report+Plugin",
+      "summary": "A Jenkins plugin to send email if your test cases find regression. It helps legacy product to introduce CI step-by-step."
+    },
+    {
+      "name": "FindBugs plugin for SLF4J",
+      "releaseDate": "2012-08-26",
+      "website": "https://github.com/KengoTODA/findbugs-slf4j",
+      "summary": "SLF4J is really great library to handle logging, it helps us to realise both of detailed logs and high performance. But it is easy to misuse (e.g. e.getMessage() in log parameter, mismatch between numbers of {} and parameter), so your team need help from experienced developers to get review. This FindBugs plugin helps you to keep quality of your code, and scalability of development. It validates your code, and reports bugs and potential problems automatically. It also supports Java8 and latest FindBugs, so you can use it in production development."
+    },
+    {
+      "name": "Guava helper for Java 8",
+      "releaseDate": "2015-07-14",
+      "website": "https://github.com/KengoTODA/guava-helper-for-java-8",
+      "summary": "Collectors for Guava collections, and FindBugs plugin to detect usage of deprecated API. It helps Java developers to use only good parts in Guava, even though it has old parts replaced with Java8 new API."
     }
   ],
   "references": [
