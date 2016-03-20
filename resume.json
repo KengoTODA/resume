@@ -32,10 +32,16 @@
   "work": [
     {
       "company": "Works Applications co.,ltd.",
-      "position": "Engineer",
+      "position": "R&D Engineer",
       "website": "http://worksap.com/",
       "startDate": "2008-04-01",
-      "endDate": "2011-08-31"
+      "endDate": "2011-08-31",
+      "summary": "Made customer's business efficient by solving performance bottlenecks in legacy Enterprise ERP systems. Responsible to reproduce existing bottlenecks in product locally, analyse it to identify root of problem, and solve it by changing implementation or optimize middleware configuration. Expected to understand a lot of technical knowledge and have deep and wide experiences, to support product development division as technical expert.",
+      "highlights": [
+        "Solves storage I/O storm problem in Oracle Database for COBOL/Java batches, without any additional hardware.",
+        "Support product development division to upgrade JDK, to start managing log, and to introduce unit testing.",
+        "Researched and evaluated how/why appliance from middleware vendor can improve performance of our product."
+      ]
     },
     {
       "company": "Works Applications CHINA co.,ltd.",
