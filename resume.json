@@ -117,6 +117,8 @@
         "JavaScript",
         "jQuery",
         "Google Closure Library",
+        "QUnit",
+        "Jasmine",
         "ESLint",
         "Bootstrap"
       ]
@@ -141,6 +143,7 @@
         "Maven3",
         "Grunt",
         "npm",
+        "karma",
         "WebPack",
         "Docker",
         "docker-compose",
