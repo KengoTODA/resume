@@ -24,8 +24,18 @@
         "url": "facebook.com/kengo.toda"
       },
       {
+        "network": "Slideshare",
+        "username": "Kengo TODA",
+        "url": "http://www.slideshare.net/kengotoda"
+      },
+      {
         "network": "Wechat",
         "username": "toda_k"
+      },
+      {
+        "network": "Speakerdeck",
+        "username": "Kengo TODA",
+        "url": "https://speakerdeck.com/eller86"
       }
     ]
   },
