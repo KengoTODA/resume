@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "test": "hackmyresume BUILD resume.json TO target/resume.html -t node_modules/jsonresume-theme-paper && cp avatar.jpeg target && sed -i .backup -e 's/Publications/Products/' target/resume.html"
+    "test": "hackmyresume BUILD resume.json TO target/resume.html -t node_modules/jsonresume-theme-paper && sed -i .backup -e 's/Publications/Products/' target/resume.html"
   },
   "devDependencies": {
     "hackmyresume": "^1.8.0",
-    "jsonresume-theme-paper": "^0.3.2"
+    "jsonresume-theme-paper": "^0.3.2",
+    "resume-cli": "^0.4.11"
   }
 }
