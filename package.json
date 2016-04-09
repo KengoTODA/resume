@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "test": "hackmyresume BUILD resume.json TO target/resume.html -t node_modules/jsonresume-theme-paper && sed -i .backup -e 's/Publications/Products/' target/resume.html"
+    "test": "hackmyresume BUILD resume.json TO target/resume.html -t node_modules/jsonresume-theme-elegant && sed -e 's/Publications/Products/' -i .bak target/resume.html",
+    "publish": "resume publish"
   },
   "devDependencies": {
     "hackmyresume": "^1.8.0",
-    "jsonresume-theme-paper": "^0.3.2",
+    "jsonresume-theme-elegant": "^v1.3.10",
     "resume-cli": "^0.4.11"
   }
 }
