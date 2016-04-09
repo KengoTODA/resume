@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "hackmyresume BUILD resume.json TO target/resume.html -t node_modules/jsonresume-theme-elegant && sed -e 's/Publications/Products/' -i .bak target/resume.html",
+    "test": "hackmyresume BUILD resume.json TO target/resume.html -t node_modules/jsonresume-theme-elegant && gsed -i -e 's/Publications/Products/' target/resume.html || sed -i -e 's/Publications/Products/' target/resume.html",
     "publish": "resume publish"
   },
   "devDependencies": {
