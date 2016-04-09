@@ -5,7 +5,7 @@
     "email": "skypencil@gmail.com",
     "phone": "+86 131-2241-7703",
     "website": "https://kengotoda.github.io/",
-    "summary": "Suitable to enhance team productivity: Experienced to develop products with large scale dev team. Motivated to learn/teach Scrum and leadership based on care for motivation and openness. Trusted as tech leader and reviewer, who can advice for architecture, testability and maintainability improvement. Experienced with static analysis and OSS development.",
+    "summary": "Experienced to develop products with large scale dev team with high productivity and quality. Trusted as tech leader and reviewer, who can advice for architecture, testability and maintainability improvement. Experienced with web page performance improvement, static code analysis and OSS development.",
     "location": {
       "city": "Putuo",
       "countryCode": "China",
@@ -55,23 +55,44 @@
     },
     {
       "company": "Works Applications CHINA co.,ltd.",
-      "position": "Team Lead",
+      "position": "R&D Team Lead",
       "website": "http://worksap.com/",
       "startDate": "2011-09-01",
-      "endDate": "2013-07-31"
+      "endDate": "2013-07-31",
+      "summary": "Led developers at new abroad branch in Shanghai, to make it the most challenging development office. I was expected to tell corporate culture and the stance to solve problems, so I started from one-on-one and making official English document for training. My documentation started from a Wiki page, and now it is widely spreaded onto groupware and video based e-learning system by effort from many contributors. Of course I also challenged to be technical expert: maintained Cassandra cluster to host 24/7 web-mail system without RDBMS, deployed monitoring system onto Google App Engline, and made the first product on Java EE JAX-RS.",
+      "highlights": [
+        "Solved information gap and mismatch between headquoter in Japan and branch in abroad, by making English document actively and pushing team in Japan.",
+        "Provided a web-mail system for 2,000+ employees in Japan and China. It is working 24/7 so I developed a monitoring system on Google App Engine to automate trouble shooting.",
+        "Led and trained 8 developers to guide them to be technologist and to solve problem. They are now trusted as the most technical and challenging experts."
+      ]
     },
     {
       "company": "Works Applications Singapore PTE LTD",
-      "position": "Team Lead",
+      "position": "Product Development Team Lead",
       "website": "http://worksap.com/",
       "startDate": "2013-08-01",
-      "endDate": "2014-06-30"
+      "endDate": "2014-06-30",
+      "summary": "Worked at the second abroad branch which is newly launched in Singapore. I was expected to reproduce previous work in Shanghai, and trained development team to implement high quality and secure product. For quality, my team successfully introduced JUnit tests for payment system in EC site, by my explanation about how to introduce CI and unit tests to legacy project. I also helped developers to unify logging rule, coding rule, version management system and how-to make development environment on developer's PC, to improve quality and productivity.",
+      "highlights": [
+        "Improved productivity by introducing Git: now developers in abroad office do not need to wait for uploading their achievement to VCS server in Japan.",
+        "Worked with developers from many other regions and countries.",
+        "Reduced 90% of log, by making rule for log level and logger setting."
+      ]
     },
     {
       "company": "Works Applications CHINA co.,ltd.",
-      "position": "Manager",
+      "position": "R&D Manager",
       "website": "http://worksap.com/",
-      "startDate": "2014-07-01"
+      "startDate": "2014-07-01",
+      "summary": "Improved page rendering speed of new ERP product (AI Works http://www.worksap.com/products-solutions/about-our-product/) distributed on cloud. To stop redraw and reflow, I worked with a large team (20+ developers) to eliminated DOM manipulation by JS in page initialization phase by building UI component framework based on Google Closure Library. I also managed a team to develop another server side framework (Forneus: http://research.worksap.com/research/forneus/) to construct all necessary HTML in server side. By these two frameworks, our ERP product achieved 100ms rendering, so end users can enjoy quick response like consumer applications. I played role as developer, scrum master, product owner and code reviewer to help my teams' challenges to make product high-speed and available including: Google Closure Compiler, Google Closure Stylesheet, SPDY, HTTP/2, Server-Sent Events, WebSocket, Redis, Kafka and Kryo.",
+      "highlights": [
+        "Managed teams to develop client side & server side framework, and realised quick response within 100ms.",
+        "Taught how to use JSDoc, Google Closure Library and Google Closure Compiler to developers familier with jQuery.",
+        "Held technical session each month, to change atmosphere and enhance communication among developers.",
+        "Reduced overworking time from 30% to 0% by mesuring spent time for each tasks by Redmine to understand fact to improve estimation and productivity.",
+        "The most committed developer of 300+ in 3 countries.",
+        "The most answered developer at QA site in intranet."
+      ]
     }
   ],
   "education": [
@@ -94,18 +115,18 @@
         "Java8",
         "Maven Plugin",
         "Jenkins Plugin",
-        "Spring Framework",
-        "Apache Commons",
+        "SLF4J",
         "Google Guava",
         "Google Truth",
-        "Vert.x",
+        "Spring Framework",
+        "Apache Commons",
         "JUnit4",
-        "SLF4J",
         "Logback",
         "ObjectWeb ASM",
         "Findbugs",
         "PMD",
-        "JSR305"
+        "JSR305",
+        "PICT"
       ]
     },
     {
@@ -113,7 +134,7 @@
       "level": "Master",
       "keywords": [
         "JMX",
-        "Oracle Java Mission Control",
+        "Oracle Java Mission Control (jmc)",
         "Statspack",
         "jcmd",
         "JMH",
@@ -163,6 +184,7 @@
         "WebPack",
         "Docker",
         "docker-compose",
+        "Registrator",
         "Jenkins",
         "Slack",
         "Redmine",
@@ -180,6 +202,18 @@
         "Product Owner (Scrum)",
         "Problem Solving",
         "One on one"
+      ]
+    },
+    {
+      "name": "Interests",
+      "level": "beginner",
+      "keywords": [
+        "rust (to make high performance app without null and multi thread problem)",
+        "Vert.x (to make distributable system with back pressure consideration)",
+        "Soot (to make high performance and extensible bytecode analysis framework)",
+        "LLVM (to implement DSL for daily operation)",
+        "WebAssembly (to make more faster web application, with support from static AST analysis)",
+        "Electron (to make multi platform GUI application)"
       ]
     }
   ],
@@ -226,7 +260,7 @@
       "name": "Jenkins regression report plugin",
       "releaseDate": "2012-06-02",
       "website": "https://wiki.jenkins-ci.org/display/JENKINS/Regression+Report+Plugin",
-      "summary": "A Jenkins plugin to send email if your test cases find regression. It helps legacy product to introduce CI step-by-step."
+      "summary": "A Jenkins plugin to send email if your test cases find regression. It helps legacy product to introduce CI step-by-step, even though it has failing test cases. This plugin fits requirement from many team and installed about 400 Jenkins servers in the world (the 515th popular plugin of the 1,073 at 2016/Mar)."
     },
     {
       "name": "FindBugs plugin for SLF4J",
