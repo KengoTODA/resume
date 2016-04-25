@@ -74,7 +74,7 @@
         "Solved information gap and mismatch between headquoter in Japan and branch in abroad, by making English document actively and pushing team in Japan.",
         "Provided a web-mail system for 2,000+ employees in Japan and China. It is working 24/7 so I developed a monitoring system on Google App Engine to automate trouble shooting.",
         "Led and trained 8 developers to guide them to be technologist and to solve problem. They are now trusted as the most technical and challenging experts.",
-        "Made official corporate GitHub account, and published several OSS. https://github.com/WorksApplications"
+        "Made official corporate GitHub account, and published [several OSS](https://github.com/WorksApplications)."
       ]
     },
     {
@@ -95,7 +95,7 @@
       "position": "R&D Manager",
       "website": "http://worksap.com/",
       "startDate": "2014-07-01",
-      "summary": "Improved page rendering speed of new ERP product (AI Works http://www.worksap.com/products-solutions/about-our-product/) distributed on cloud. To stop redraw and reflow, I worked with a large team (20+ developers) to eliminated DOM manipulation by JS in page initialization phase by building UI component framework based on Google Closure Library. I also managed a team to develop another server side framework (Forneus: http://research.worksap.com/research/forneus/) to construct all necessary HTML in server side. By these two frameworks, our ERP product achieved 100ms rendering, so end users can enjoy quick response like consumer applications. I played role as developer, scrum master, product owner and code reviewer to help my teams' challenges to make product high-speed and available including: Google Closure Compiler, Google Closure Stylesheet, SPDY, HTTP/2, Server-Sent Events, WebSocket, Redis, Kafka and Kryo.",
+      "summary": "Improved page rendering speed of new ERP product ([AI Works](http://www.worksap.com/products-solutions/about-our-product/)) distributed on cloud. To stop redraw and reflow, I worked with a large team (20+ developers) to eliminated DOM manipulation by JS in page initialization phase by building UI component framework based on Google Closure Library. I also managed a team to develop another server side framework ([Forneus](http://research.worksap.com/research/forneus/)) to construct all necessary HTML in server side. By these two frameworks, our ERP product achieved 100ms rendering, so end users can enjoy quick response like consumer applications. I played role as developer, scrum master, product owner and code reviewer to help my teams' challenges to make product high-speed and available including: Google Closure Compiler, Google Closure Stylesheet, SPDY, HTTP/2, Server-Sent Events, WebSocket, Redis, Kafka and Kryo.",
       "highlights": [
         "Managed teams to develop client side & server side framework, and realised quick response within 100ms.",
         "Taught how to use JSDoc, Google Closure Library and Google Closure Compiler to developers familier with jQuery.",
@@ -114,7 +114,7 @@
       "startDate": "2004-04-01",
       "endDate": "2008-03-31",
       "courses": [
-        "e-learning content http://www.rs.kagu.tus.ac.jp/yamalab/2007/toda/"
+        "[e-learning content](http://www.rs.kagu.tus.ac.jp/yamalab/2007/toda/)"
       ]
     }
   ],
