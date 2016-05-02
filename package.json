@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "hackmyresume BUILD resume.json TO target/resume.html -t node_modules/jsonresume-theme-elegant && gsed -i -e 's/Publications/Products/' target/resume.html || sed -i -e 's/Publications/Products/' target/resume.html",
-    "publish": "resume publish"
+    "publish": "resume publish -t node_modules/jsonresume-theme-elegant"
   },
   "devDependencies": {
     "hackmyresume": "^1.8.0",
