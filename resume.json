@@ -98,7 +98,7 @@
       "startDate": "2014-07-01",
       "summary": "Improved page rendering speed of new ERP product ([AI Works](http://www.worksap.com/products-solutions/about-our-product/)) distributed on cloud. Realised less redraw/reflow by newly built UI component framework based on Google Closure Library, and lightning speed data binding in server side by another new framework named ([Forneus](http://research.worksap.com/research/forneus/)). By these two frameworks, our ERP product achieved lightning speed page rendering in 100ms like consumer applications.",
       "highlights": [
-        "Played role as developer, scrum master, product owner and code reviewer to help my teams' challenges. Reduced overworking time from 30% to 0% by mesuring spent time for each tasks to understand fact to improve estimation and productivity.",
+        "Played role as developer, scrum master, product owner and code reviewer to help my teams' challenges. Reduced overworking time from 30% to 0% by measuring spent time for each tasks to understand fact to improve estimation and productivity.",
         "Managed teams to develop client side & server side framework, and realised quick response within 100ms.",
         "Held technical session each month, to change atmosphere and enhance communication among developers.",
         "Taught how to use JSDoc, Google Closure Library and Google Closure Compiler to developers familier with jQuery.",
