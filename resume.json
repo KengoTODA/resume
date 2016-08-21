@@ -195,9 +195,6 @@
         "npm",
         "karma",
         "WebPack",
-        "Docker",
-        "docker-compose",
-        "Registrator",
         "Jenkins",
         "Slack",
         "Redmine",
@@ -205,6 +202,19 @@
         "Google Closure Compiler",
         "Vagrant",
         "AWS"
+      ]
+    },
+    {
+      "name": "Microservice",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "docker-compose",
+        "Registrator",
+        "Hashicorp Consul",
+        "Vert.x",
+        "RxJava (ReactiveX)",
+        "Project Reactor (Spring 5)"
       ]
     },
     {
@@ -222,7 +232,6 @@
       "level": "beginner",
       "keywords": [
         "rust (to make high performance app without null and multi thread problem)",
-        "Vert.x (to make distributable system with back pressure consideration)",
         "Soot (to make high performance and extensible bytecode analysis framework)",
         "LLVM (to implement DSL for daily operation)",
         "WebAssembly (to make more faster web application, with support from static AST analysis)",
